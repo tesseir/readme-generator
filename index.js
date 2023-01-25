@@ -26,26 +26,38 @@ inquirer
   ])
   .then((response) => {
     const finalstring = `
-      <!DOCTYPE html>
-      <html lang="en">
-      <head>
-      <meta charset="UTF-8">
-      <meta http-equiv="X-UA-Compatible" content="IE=edge">
-      <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <title>Document</title>
-      </head>
-      <body class="thing">
-        <div>${response.name}</div>
-        <div>${response.loc}</div>
-        <div>${response.link}</div>
-        <div>${response.git}</div>
-      </body>
-      </html>`;
+# ${title}
+
+Github Repo: ${response.repo}
+
+Deployed Page: ${response.page}
+
+## Image of use:
+
+![image of use](${response.image})
+
+## Installation and Usage
+
+${response.usage}
+
+## User Story
+
+```md
+${ response.story }
+```
+
+## Acceptance Criteria
+
+```md
+${ response.acceptance }
+```
+## License 
+      `;
 
     console.log(finalstring);
-    
-    fs.writeFile("index.html",finalstring,(err) =>
-    err ? console.log(err) : console.log('success'));
+
+    fs.writeFile("readme.md", finalstring, (err) =>
+      err ? console.log(err) : console.log('success'));
   });
 
 
