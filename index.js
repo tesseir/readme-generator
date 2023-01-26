@@ -66,10 +66,10 @@ Deployed Page: ${response.page}
 ## Table of Contents
 
 -[Image](#Image)
--[Installation](#Installation)
--[Credits](#Credits)
--[License](#License)
--[Contact](#Contact)
+\n-[Installation](#Installation)
+\n-[Credits](#Credits)
+\n-[License](#License)
+\n-[Contact](#Contact)
 
 ## Image of use:
 
