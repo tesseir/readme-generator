@@ -28,17 +28,17 @@ inquirer
     {
       type: 'input',
       name: 'description',
-      message: 'enter description (use "\n" for a new line):',
+      message: 'enter description:',
     },
     {
       type: 'input',
       name: 'usage',
-      message: 'enter installation and usage info (use "\n" for a new line):',
+      message: 'enter installation and usage info:',
     },
     {
       type: 'input',
       name: 'credits',
-      message: 'enter credits (use "\n" for a new line):',
+      message: 'enter credits:',
     },
     {
       type: 'list',
@@ -49,7 +49,7 @@ inquirer
     {
       type: 'input',
       name: 'contact',
-      message: 'enter contact info (use "\n" for a new line):',
+      message: 'enter contact info:',
     },
 
 
