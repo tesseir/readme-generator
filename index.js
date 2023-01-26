@@ -65,11 +65,11 @@ Deployed Page: ${response.page}
 
 ## Table of Contents
 
--[Image of use](#Image of use)
--[Installation and Usage](#Installation and Usage)
+-[Image](#Image)
+-[Installation](#Installation)
 -[Credits](#Credits)
 -[License](#License)
--[Contact me](#Contact me)
+-[Contact](#Contact)
 
 ## Image of use:
 
