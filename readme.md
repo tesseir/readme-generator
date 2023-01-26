@@ -29,7 +29,7 @@ A readme generator.
 
 ## Installation and Usage
 
-Clone the repo to your machine and run it in vs code or gitbash. Once open, in the terminal, type "node index.js" and it will prompt you to enter information for it to fill the readme.
+Clone the repo to your machine and run it in vs code or gitbash. Once open, in the terminal, type "node index.js" and it will prompt you to enter information for it to fill the readme. Once the final prompt has ran, it will create a file named "generated.md" with all the information you provided. You can then rename it to "readme.md" for you usage.
 
 ## Credits
 
