@@ -1,5 +1,4 @@
 # 09 Node.js Challenge: Professional README Generator 
-![License](https://img.shields.io/badge/License-MIT-blue.svg)
 
 Github Repo: https://github.com/tesseir/readme-generator
 
