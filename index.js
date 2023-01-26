@@ -7,49 +7,49 @@ inquirer
     {
       type: 'input',
       name: 'title',
-      message: 'enter project title',
+      message: 'enter project title:',
     },
     {
       type: 'input',
       name: 'repo',
-      message: 'enter repo url',
+      message: 'enter repo url:',
     },
     {
       type: 'input',
       name: 'page',
-      message: 'enter deployed page url',
+      message: 'enter deployed page url:',
     },
     {
       //! i prefer to link my images through the url, not through a file. 
       type: 'input',
       name: 'image',
-      message: 'enter image url',
+      message: 'enter image url:',
     },
     {
       type: 'input',
       name: 'description',
-      message: 'enter description (use "\n" for a new line)',
+      message: 'enter description (use "\n" for a new line):',
     },
     {
       type: 'input',
       name: 'usage',
-      message: 'enter installation and usage info (use "\n" for a new line)',
+      message: 'enter installation and usage info (use "\n" for a new line):',
     },
     {
       type: 'input',
       name: 'credits',
-      message: 'enter credits (use "\n" for a new line)',
+      message: 'enter credits (use "\n" for a new line):',
     },
     {
       type: 'list',
       name: 'license',
-      message: 'pick a license',
+      message: 'pick a license:',
       choices: ['MIT', 'Apache 2.0', 'GPL 3.0'],
     },
     {
       type: 'input',
       name: 'contact',
-      message: 'enter contact info (use "\n" for a new line)',
+      message: 'enter contact info (use "\n" for a new line):',
     },
 
 
